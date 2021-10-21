@@ -12,7 +12,7 @@
         <div class="d-md-flex justify-content-between align-items-center">
             <div class="m-auto col-md-4">
                 <h1>Login</h1>
-                <form action="">
+                <form action="/classes" method="GET">
                     <label for="username" class="form-label">Username</label>
                     <input type="text" class="form-control" id="username" name="username">
                     <label for="password" class="form-label">Password</label>

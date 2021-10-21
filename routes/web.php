@@ -26,3 +26,7 @@ Route::get('home', function () {
 Route::get('sign-up', function() {
     return view('site.sign-up');
 });
+
+Route::get('classes', function() {
+    return view('class.class-list');
+});
