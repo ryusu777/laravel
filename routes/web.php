@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\BookController;
-use App\Http\Controllers\SiswaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,5 +20,9 @@ Route::get('/', function () {
 });
 
 Route::get('home', function () {
-    return  view('home');
+    return view('home');
+});
+
+Route::get('sign-up', function() {
+    return view('site.sign-up');
 });
