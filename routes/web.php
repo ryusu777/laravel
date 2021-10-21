@@ -30,3 +30,11 @@ Route::get('sign-up', function() {
 Route::get('classes', function() {
     return view('class.class-list');
 });
+
+Route::get('join-class', function() {
+    return view('class.join-class');
+});
+
+Route::get('create-class', function() {
+    return view('class.create-class');
+});
