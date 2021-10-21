@@ -24,11 +24,3 @@ Route::get('/', function () {
 Route::get('home', function () {
     return  view('home');
 });
-
-Route::get('user/{userId?}', function ($userId = "Default") {
-    return view('user', ['userId' => $userId]);
-});
-
-Route::get('book', [BookController::class, 'index']);
-
-Route::get('vbook/{judul}', [BookController::class, 'viewJudul']);
