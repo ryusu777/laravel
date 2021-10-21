@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Home')
+@section('title', 'Sign-up')
 
 @section('navbar-link')
 <li class="nav-item">
