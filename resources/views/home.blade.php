@@ -1,5 +1,11 @@
 @extends('layouts.main')
 @section('title', 'Home')
+@section('navbar-link')
+<li class="nav-item">
+    <a href="/sign-up" class="nav-link">Sign Up</a>
+</li>
+@endsection
+
 @section('content')
 <section class="bg-dark text-light p-5">
     <div class="container">
@@ -13,7 +19,6 @@
                     <input type="password" class="form-control" id="password" name="password">
                     <button class="btn btn-primary mt-3" type="submit">Login</button>
                 </form>
-                <a href="sign-up" class="mt-5">Sign up</a>
             </div>
             <img src="{{ asset('graphics/hero-img.svg') }}" alt="" class="img-fluid w-50 d-md-block d-none">
         </div>

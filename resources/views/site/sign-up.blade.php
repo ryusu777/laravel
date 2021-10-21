@@ -1,5 +1,12 @@
 @extends('layouts.main')
 @section('title', 'Home')
+
+@section('navbar-link')
+<li class="nav-item">
+    <a href="/" class="nav-link">Home</a>
+</li>
+@endsection
+
 @section('content')
 <section class="p-5 mt-5">
     <div class="container">
